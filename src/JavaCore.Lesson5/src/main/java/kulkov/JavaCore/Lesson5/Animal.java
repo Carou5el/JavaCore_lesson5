@@ -2,9 +2,8 @@ package kulkov.JavaCore.Lesson5;
 
 public class Animal
 {
-    static int objectCNT = 0;
-    public int distanceRun;
-    public int distanceSwim;
+    static int objectCNT = 0;               // Подсчёт объектов, реализованных от этого родительского класса.
+
     public int distLimitRun;
     public int distLimitSwim;
 
@@ -13,8 +12,8 @@ public class Animal
         this.distLimitRun = 0;
         this.distLimitSwim = 0;
     }
-    Animal(int distanceRunLimit,
-            int distanceSwimLimit)
+
+    Animal(int distanceRunLimit, int distanceSwimLimit)
     {
         this.distLimitRun = distanceRunLimit;
         this.distLimitSwim = distanceSwimLimit;

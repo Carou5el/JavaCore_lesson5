@@ -1,7 +1,9 @@
 package kulkov.JavaCore.Lesson5;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+
         Cat Bulka = new Cat(100);
         Dog Max = new Dog(150, 10);
 
